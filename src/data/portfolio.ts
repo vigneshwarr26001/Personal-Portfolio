@@ -26,7 +26,7 @@ export const portfolioData = {
     },
     {
       name: "LinkedIn",
-      href: "https://www.linkedin.com/in/vigneshwar-ravi-4b5806201?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+      href: "https://www.linkedin.com/in/vigneshwar-ravi-4b5806201",
       icon: "Linkedin",
     },
     {
@@ -371,7 +371,7 @@ export const portfolioData = {
         "Responsive personal portfolio built with Next.js and TypeScript to showcase projects, skills, and experience. Features modern design, smooth Framer Motion animations, and optimized performance.",
       image: "/projects/portfolio.jpg",
       technologies: ["Next.js", "TypeScript", "Framer Motion", "Tailwind CSS"],
-      liveUrl: "https://rajeshkumar.is-a.dev",
+      liveUrl: "https://vigneshwarr.vercel.app",
       githubUrl: "https://github.com/vigneshwarr26001/Personal-Portfolio",
       featured: false,
     },
@@ -401,7 +401,7 @@ export const portfolioData = {
     keywords:
       "software developer, full stack developer, react developer, nodejs developer, javascript, web development",
     author: "Vigneshwar R",
-    siteUrl: "https://rajeshkumar.is-a.dev",
+    siteUrl: "https://vigneshwarr.vercel.app",
     image: "/og-image.jpg",
   },
   validationMessages: {
