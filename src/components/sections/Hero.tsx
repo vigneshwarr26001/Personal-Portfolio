@@ -79,7 +79,7 @@ export function Hero() {
                 </span>
               </Button>
 
-              <Button
+              {/* <Button
                 variant="outline"
                 size="lg"
                 className="group border-2 hover:bg-primary hover:text-primary-foreground transition-all duration-300 hover:scale-105"
@@ -93,7 +93,7 @@ export function Hero() {
               >
                 <Download className="w-4 h-4 mr-2 group-hover:scale-110 transition-transform" />
                 {heroContent.cta.secondary}
-              </Button>
+              </Button> */}
             </motion.div>
 
             {/* Social Links */}
