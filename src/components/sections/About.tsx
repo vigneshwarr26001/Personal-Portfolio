@@ -38,7 +38,7 @@ export function About() {
                 {personalInfo.description} I specialize in building modern, scalable applications 
                 using cutting-edge technologies and best practices.
               </p>
-              <p className="text-muted-foreground leading-relaxed text-justify">
+              <p className="hidden text-muted-foreground leading-relaxed text-justify">
                 With over 3 years of experience in software development, I've worked on diverse 
                 projects ranging from enterprise applications to mobile apps. My passion lies in 
                 creating efficient, user-friendly solutions that make a real difference.

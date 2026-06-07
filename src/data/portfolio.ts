@@ -3,7 +3,7 @@ export const portfolioData = {
     name: "Vigneshwar R",
     title: "Software Engineer",
     description:
-      "Software Engineer with 3+ years of experience building scalable SaaS products, cloud-native applications, event-driven microservices, and enterprise tax platforms using React.js, Next.js, Node.js, MongoDB, PostgreSQL, Redis, Kafka, and AWS. Experienced in distributed systems, dual-database architectures, RESTful APIs, database optimization, and performance-driven backend engineering.",
+      "Software Engineer with 3+ years of experience building scalable SaaS platforms, distributed systems, and cloud-native applications using Node.js, React.js, Next.js, MongoDB, PostgreSQL, Redis, Kafka, and AWS. Passionate about creating efficient, high-performance software that solves real-world business challenges.",
     tagline:
       "Building scalable software, distributed systems, and high-performance backend solutions.",
     location: "TamilNadu, India",
@@ -433,6 +433,8 @@ export const portfolioData = {
         "Applied MongoDB schema design patterns, indexing strategies, and aggregation pipelines to improve database efficiency and scalability.",
       ],
       technologies: [
+        "Node.js",
+        "React.js",
         "Next.js",
         "Remix.js",
         "Jest",
