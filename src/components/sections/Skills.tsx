@@ -84,7 +84,7 @@ export function Skills() {
 
                         <div className="text-sm text-muted-foreground space-y-1">
                           <p><span className="font-medium">Experience:</span> {skill.experience}</p>
-                          <p>{skill.description}</p>
+                          <p className='text-justify'>{skill.description}</p>
                         </div>
                       </CardContent>
                     </Card>

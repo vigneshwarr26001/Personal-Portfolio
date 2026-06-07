@@ -496,7 +496,7 @@ export const portfolioData = {
         "Apache Kafka",
         "AWS"
       ],
-      featured: true
+      featured: false
     },
 
     {
@@ -514,7 +514,7 @@ export const portfolioData = {
         "Apache Kafka",
         "AWS"
       ],
-      featured: true
+      featured: false
     },
 
     {
@@ -530,7 +530,7 @@ export const portfolioData = {
         "Redis",
         "Apache Kafka"
       ],
-      featured: true
+      featured: false
     },
 
     {
@@ -571,7 +571,7 @@ export const portfolioData = {
   metaInfo: {
     title: "Vigneshwar R | Software Engineer | Node.js, Next.js, AWS, Kafka",
     description:
-      "Software Engineer with 3+ years of experience building scalable SaaS platforms, event-driven microservices, distributed systems, cloud-native applications, and enterprise tax solutions using Node.js, Next.js, MongoDB, PostgreSQL, Redis, Kafka, and AWS.",
+      "Software Engineer with 3+ years of experience building scalable SaaS platforms, event-driven microservices, distributed systems, cloud-native applications, and enterprise tax solutions using Node.js, React.js, Next.js, MongoDB, PostgreSQL, Redis, Kafka, and AWS.",
     keywords:
       "software engineer, backend engineer, full stack developer, nodejs developer, react developer, nextjs developer, typescript developer, mongodb developer, postgresql, redis, apache kafka, microservices architecture, distributed systems, cloud native applications, aws lambda, serverless architecture, event driven architecture, rest api development, database optimization, scalable systems",
     author: "Vigneshwar R",

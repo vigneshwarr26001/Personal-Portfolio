@@ -123,7 +123,7 @@ export function Projects() {
                     <h3 className="text-xl font-semibold mb-2 group-hover:text-primary transition-colors">
                       {project.title}
                     </h3>
-                    <p className="text-muted-foreground text-sm leading-relaxed">
+                    <p className="text-muted-foreground text-sm leading-relaxed text-justify">
                       {project.description}
                     </p>
                   </div>

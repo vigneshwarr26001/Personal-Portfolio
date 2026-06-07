@@ -77,7 +77,7 @@ export function Experience() {
                 </CardHeader>
 
                 <CardContent className="space-y-4">
-                  <p className="text-muted-foreground">
+                  <p className="text-muted-foreground text-justify">
                     {experience.description}
                   </p>
 
@@ -105,7 +105,7 @@ export function Experience() {
                       className="pt-4 border-t border-border"
                     >
                       <h4 className="font-semibold mb-3">Key Achievements</h4>
-                      <ul className="space-y-2">
+                      <ul className="space-y-2 text-justify">
                         {experience.achievements.map((achievement, achIndex) => (
                           <li key={achIndex} className="text-sm text-muted-foreground flex items-start gap-2">
                             <div className="w-1.5 h-1.5 bg-primary rounded-full mt-1.5 flex-shrink-0" />

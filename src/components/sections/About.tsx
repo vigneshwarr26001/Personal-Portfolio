@@ -32,14 +32,14 @@ export function About() {
             viewport={{ once: true }}
             className="space-y-6"
           >
-            <div className="space-y-4">
+            <div className="space-y-4 text-justify">
               <h3 className="text-2xl font-semibold">My Story</h3>
               <p className="text-muted-foreground leading-relaxed">
                 {personalInfo.description} I specialize in building modern, scalable applications 
                 using cutting-edge technologies and best practices.
               </p>
-              <p className="text-muted-foreground leading-relaxed">
-                With over 2 years of experience in software development, I've worked on diverse 
+              <p className="text-muted-foreground leading-relaxed text-justify">
+                With over 3 years of experience in software development, I've worked on diverse 
                 projects ranging from enterprise applications to mobile apps. My passion lies in 
                 creating efficient, user-friendly solutions that make a real difference.
               </p>
@@ -61,7 +61,7 @@ export function About() {
                       <h5 className="font-medium text-foreground group-hover:text-primary transition-colors">
                         {strength.title}
                       </h5>
-                      <p className="text-sm text-muted-foreground mt-1">
+                      <p className="text-sm text-muted-foreground mt-1 text-justify">
                         {strength.description}
                       </p>
                     </div>
