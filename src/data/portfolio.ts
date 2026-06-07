@@ -616,7 +616,7 @@ export const portfolioData = {
     greeting: "Hi, I'm",
     name: "Vigneshwar",
     description:
-      "Software Engineer specializing in scalable backend systems, event-driven microservices, distributed architectures, and cloud-native SaaS platforms using Node.js, Next.js, MongoDB, PostgreSQL, Redis, Kafka, and AWS.",
+      "Software Engineer specializing in scalable backend systems, event-driven microservices, distributed architectures, and cloud-native SaaS platforms using Node.js, React.js, Next.js, MongoDB, PostgreSQL, Redis, Kafka, and AWS.",
     cta: {
       primary: "Get in Touch",
       secondary: "Download CV",
