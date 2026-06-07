@@ -1,7 +1,7 @@
 import { motion } from 'framer-motion'
 import { Card, CardContent } from '@/components/ui/card'
 import { Badge } from '@/components/ui/badge'
-import { Monitor, Server, Database, Smartphone, Cloud, Code, Settings } from 'lucide-react'
+import { Monitor, Server, Database, Smartphone, Cloud, Code, Settings, Shield } from 'lucide-react'
 import { portfolioData } from '@/data/portfolio'
 
 const iconMap = {
@@ -12,6 +12,7 @@ const iconMap = {
   Cloud,
   Code,
   Settings,
+  Shield,
 }
 
 export function Skills() {
@@ -61,11 +62,11 @@ export function Skills() {
               className="space-y-4"
             >
               <h3 className="text-xl font-semibold">{category}</h3>
-              
+
               <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
                 {skills.map((skill, skillIndex) => {
                   const IconComponent = iconMap[skill.icon as keyof typeof iconMap]
-                  
+
                   return (
                     <Card key={skillIndex} className="p-4 border border-border hover:border-primary/20 transition-colors">
                       <CardContent className="p-0 space-y-3">
@@ -80,7 +81,7 @@ export function Skills() {
                             {skill.level}
                           </Badge>
                         </div>
-                        
+
                         <div className="text-sm text-muted-foreground space-y-1">
                           <p><span className="font-medium">Experience:</span> {skill.experience}</p>
                           <p>{skill.description}</p>
