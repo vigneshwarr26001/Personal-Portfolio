@@ -26,9 +26,9 @@ export function About() {
         <div className="grid lg:grid-cols-2 gap-12 items-center mb-16">
           {/* About Content */}
           <motion.div
-            initial={{ opacity: 0, x: -50 }}
-            whileInView={{ opacity: 1, x: 0 }}
-            transition={{ duration: 0.6 }}
+            initial={{ opacity: 0 }}
+            whileInView={{ opacity: 1 }}
+            transition={{ duration: 0.5 }}
             viewport={{ once: true }}
             className="space-y-6"
           >
@@ -51,9 +51,9 @@ export function About() {
                 {professionalStrengths.map((strength, index) => (
                   <motion.div
                     key={index}
-                    initial={{ opacity: 0, y: 20 }}
-                    whileInView={{ opacity: 1, y: 0 }}
-                    transition={{ duration: 0.6, delay: index * 0.1 }}
+                    initial={{ opacity: 0 }}
+                    whileInView={{ opacity: 1 }}
+                    transition={{ duration: 0.5 }}
                     viewport={{ once: true }}
                     className="group"
                   >
@@ -73,29 +73,29 @@ export function About() {
 
           {/* Stats Cards */}
           <motion.div
-            initial={{ opacity: 0, x: 50 }}
-            whileInView={{ opacity: 1, x: 0 }}
-            transition={{ duration: 0.6 }}
+            initial={{ opacity: 0 }}
+            whileInView={{ opacity: 1 }}
+            transition={{ duration: 0.5 }}
             viewport={{ once: true }}
-            className="grid grid-cols-2 gap-6"
+            className="grid grid-cols-2 md:grid-cols-2 lg:grid-cols-2 gap-4 md:gap-6"
           >
             {aboutStats.map((stat, index) => (
               <motion.div
                 key={index}
-                initial={{ opacity: 0, scale: 0.9 }}
-                whileInView={{ opacity: 1, scale: 1 }}
-                transition={{ duration: 0.6, delay: index * 0.1 }}
+                initial={{ opacity: 0 }}
+                whileInView={{ opacity: 1 }}
+                transition={{ duration: 0.5 }}
                 viewport={{ once: true }}
-                whileHover={{ scale: 1.05 }}
+                whileHover={{ scale: 1.02 }}
                 className="group"
               >
                 <Card className="hover-lift bg-card-gradient border-border/50 hover:border-primary/20 transition-all duration-300">
-                  <CardContent className="p-6 text-center">
-                    <div className="space-y-2">
-                      <h3 className="text-3xl font-bold text-gradient group-hover:scale-110 transition-transform">
+                  <CardContent className="p-6 md:p-8 text-center">
+                    <div className="space-y-3">
+                      <h3 className="text-4xl md:text-5xl font-bold text-gradient group-hover:scale-110 transition-transform">
                         {stat.value}
                       </h3>
-                      <p className="text-muted-foreground font-medium">
+                      <p className="text-sm md:text-base text-muted-foreground font-medium">
                         {stat.label}
                       </p>
                     </div>

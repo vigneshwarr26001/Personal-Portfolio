@@ -1,12 +1,12 @@
 export const portfolioData = {
     personalInfo: {
         name: "Vigneshwar R",
-        title: "Software Engineer",
+        title: "Full Stack Software Engineer",
         description:
-            "Software Engineer with 3+ years of experience building scalable SaaS platforms, distributed systems, and cloud-native applications using Node.js, React.js, Next.js, MongoDB, PostgreSQL, Redis, Kafka, and AWS. Passionate about creating efficient, high-performance software that solves real-world business challenges.",
+            "3+ years building scalable SaaS platforms, event-driven microservices, and distributed systems. Expert in React.js, Next.js, Node.js, TypeScript, MongoDB, PostgreSQL, Redis, Kafka, and AWS.",
         tagline:
-            "Building scalable software, distributed systems, and high-performance backend solutions.",
-        location: "TamilNadu, India",
+            "Scalable SaaS | Event-Driven Microservices | Distributed Systems | Cloud-Native Applications",
+        location: "Virudhunagar, TamilNadu, India",
         email: "vigneshwarravi26@gmail.com",
         phone: "+91 6382523252",
         avatar: "/avatar.jpg",
@@ -28,6 +28,11 @@ export const portfolioData = {
             name: "LinkedIn",
             href: "https://www.linkedin.com/in/vigneshwar-ravi-4b5806201",
             icon: "Linkedin",
+        },
+        {
+            name: "Instagram",
+            href: "https://www.instagram.com/vignesh_vj_26?igsh=cHpzOHZwNDRxYnht",
+            icon: "Instagram" as const,
         },
         {
             name: "Email",
@@ -69,64 +74,60 @@ export const portfolioData = {
                 icon: "Monitor",
                 level: "Expert",
                 experience: "3+ years",
-                description:
-                    "Experienced in building scalable, component-driven user interfaces with state management and performance optimization",
             },
             {
                 name: "Next.js",
                 icon: "Monitor",
                 level: "Expert",
                 experience: "3+ years",
-                description:
-                    "Proficient in server-side rendering, static site generation, and API route development for full-stack applications",
             },
             {
                 name: "Remix.js",
                 icon: "Code",
                 level: "Advanced",
                 experience: "1+ year",
-                description:
-                    "Skilled in developing type-safe, performant web applications with advanced routing, data loading, and nested layouts",
+            },
+            {
+                name: "TypeScript",
+                icon: "Code",
+                level: "Advanced",
+                experience: "3+ years",
+            },
+            {
+                name: "Tailwind CSS",
+                icon: "Monitor",
+                level: "Advanced",
+                experience: "2+ years",
             },
             {
                 name: "Hero UI",
                 icon: "Monitor",
                 level: "Advanced",
                 experience: "2+ years",
-                description:
-                    "Hands-on experience in designing modern, responsive UIs using utility-first CSS and component libraries",
             },
             {
-                name: "JavaScript",
+                name: "JavaScript (ES6+)",
                 icon: "Code",
                 level: "Expert",
                 experience: "3+ years",
-                description:
-                    "Expertise in ES6+ features, asynchronous programming, and building dynamic, interactive client-side applications",
             },
             {
                 name: "HTML5 & CSS3",
                 icon: "Monitor",
                 level: "Expert",
                 experience: "3+ years",
-                description:
-                    "Strong knowledge of semantic markup, responsive design, and cross-browser compatibility standards",
             },
             {
                 name: "Docusaurus",
                 icon: "Monitor",
                 level: "Advanced",
-                experience: "1.5+ year",
-                description:
-                    "Experienced in building developer-friendly documentation websites with versioning, theming, and search integration",
+                experience: "1.5+ years",
             },
             {
-                name: "FemoDocs",
+                name: "Fumadocs",
                 icon: "Monitor",
-                level: "Intermediate",
+                level: "Advanced",
                 experience: "1+ year",
-                description:
-                    "Proficient in creating structured, interactive documentation and knowledge bases for development teams",
             },
         ],
         "Backend Development": [
@@ -135,313 +136,249 @@ export const portfolioData = {
                 icon: "Server",
                 level: "Expert",
                 experience: "3+ years",
-                description: "Server-side JavaScript runtime",
             },
             {
                 name: "Express.js",
                 icon: "Server",
                 level: "Expert",
                 experience: "3+ years",
-                description: "Web application framework",
             },
             {
                 name: "Fastify.js",
                 icon: "Code",
                 level: "Advanced",
                 experience: "1+ year",
-                description: "Backend development and scripting",
             },
             {
                 name: "RESTful APIs",
                 icon: "Server",
                 level: "Expert",
                 experience: "3+ years",
-                description:
-                    "Design and development of secure RESTful APIs with JWT authentication, RBAC authorization, validation layers, and scalable service architecture.",
             },
             {
                 name: "Authentication & Authorization",
                 icon: "Shield",
                 level: "Expert",
-                experience: "2.5+ years",
-                description:
-                    "Implemented JWT authentication, RBAC authorization, HMAC validation, secure API access control, and compliance-focused security workflows."
-            },
-            {
-                name: "System Design",
-                icon: "Server",
-                level: "Advanced",
-                experience: "2.5+ years",
-                description:
-                    "Designed scalable architectures, service boundaries, distributed workflows, API contracts, database strategies, and performance-focused backend systems."
+                experience: "3+ years",
             },
             {
                 name: "Event-Driven Architecture",
                 icon: "Server",
                 level: "Expert",
                 experience: "3+ years",
-                description:
-                    "Designed and implemented asynchronous event-driven systems using Apache Kafka, Redis, queues, and distributed messaging patterns."
             },
             {
                 name: "Microservices Architecture",
                 icon: "Server",
                 level: "Advanced",
                 experience: "3+ years",
-                description:
-                    "Designing scalable, loosely coupled services using event-driven communication, asynchronous processing, and distributed system principles.",
             },
             {
                 name: "Distributed Systems",
                 icon: "Server",
                 level: "Advanced",
                 experience: "3+ years",
-                description:
-                    "Experience building scalable distributed applications using Kafka, Redis, AWS services, and microservice architectures.",
             },
             {
-                name: "CI/CD",
+                name: "System Design",
+                icon: "Server",
+                level: "Advanced",
+                experience: "2.5+ years",
+            },
+            {
+                name: "CI/CD & DevOps",
                 icon: "Settings",
                 level: "Advanced",
                 experience: "2+ years",
-                description:
-                    "Built and maintained automated deployment pipelines, build validation workflows, and continuous integration processes for production applications."
             },
         ],
-        "Database & Tools": [
+        "Databases & Tools": [
             {
                 name: "MongoDB",
                 icon: "Database",
                 level: "Expert",
                 experience: "3+ years",
-                description:
-                    "Expert in MongoDB schema design, schema pattern implementation, indexing strategies, aggregation pipelines, query optimization, performance tuning, and scalable NoSQL database architecture.",
-            },
-            {
-                name: "Data Modeling",
-                icon: "Database",
-                level: "Expert",
-                experience: "3+ years",
-                description:
-                    "Designing scalable relational and NoSQL database schemas for enterprise applications and distributed systems."
-            },
-            {
-                name: "Database Optimization",
-                icon: "Database",
-                level: "Expert",
-                experience: "3+ years",
-                description:
-                    "Query optimization, indexing strategies, schema tuning, aggregation performance improvements, and database scalability."
-            },
-            {
-                name: "MongoDB Aggregation Framework",
-                icon: "Database",
-                level: "Expert",
-                experience: "3+ years",
-                description:
-                    "Expertise in building complex data pipelines for filtering, grouping, and transforming datasets",
-            },
-            {
-                name: "MongoDB Schema Design",
-                icon: "Database",
-                level: "Expert",
-                experience: "3+ years",
-                description:
-                    "Expertise in schema design, schema patterns, indexing strategies, data modeling, query optimization, and database performance tuning.",
             },
             {
                 name: "PostgreSQL",
                 icon: "Database",
                 level: "Advanced",
                 experience: "2+ years",
-                description:
-                    "Experienced in relational database design, schema modeling, query optimization, indexing strategies, stored procedures, and transactional data management for IRS tax form processing and enterprise SaaS applications.",
             },
             {
                 name: "Redis",
                 icon: "Database",
                 level: "Expert",
                 experience: "3+ years",
-                description:
-                    "Experienced in Redis caching, distributed caching, Pub/Sub messaging, session management, and performance optimization for high-traffic applications.",
             },
             {
                 name: "Apache Kafka",
                 icon: "Database",
                 level: "Expert",
                 experience: "3+ years",
-                description:
-                    "Hands-on experience building event-driven microservices using Apache Kafka for asynchronous processing, message streaming, fault tolerance, and scalable distributed systems.",
             },
             {
-                name: "Sequelize.js",
+                name: "Database Optimization & Indexing",
+                icon: "Database",
+                level: "Expert",
+                experience: "3+ years",
+            },
+            {
+                name: "Sequelize ORM",
                 icon: "Database",
                 level: "Advanced",
-                experience: "2+ year",
-                description:
-                    "ORM expertise in managing relational data models, migrations, and query abstraction for SQL databases",
+                experience: "2+ years",
             },
             {
                 name: "Jest",
                 icon: "Settings",
                 level: "Expert",
-                experience: "2.5+ year",
-                description:
-                    "Unit and integration testing framework for ensuring code reliability and test-driven development",
+                experience: "2.5+ years",
             },
             {
                 name: "Git & GitHub",
                 icon: "Settings",
                 level: "Advanced",
                 experience: "3+ years",
-                description:
-                    "Version control, branching strategies, and collaborative workflows",
             },
             {
                 name: "Docker",
                 icon: "Settings",
                 level: "Advanced",
-                experience: "2+ year",
-                description:
-                    "Containerization and environment consistency for application deployment",
+                experience: "2+ years",
             },
         ],
-        "Mobile & Cloud": [
+        "Cloud & DevOps": [
             {
                 name: "AWS",
                 icon: "Cloud",
                 level: "Expert",
                 experience: "3+ years",
-                description:
-                    "Hands-on experience with deploying and managing applications using AWS cloud services",
-            },
-            {
-                name: "Amazon S3",
-                icon: "Cloud",
-                level: "Advanced",
-                experience: "2+ years",
-                description:
-                    "Object storage for documents, file uploads, backups, and scalable application assets."
-            },
-            {
-                name: "Amazon CloudWatch",
-                icon: "Cloud",
-                level: "Advanced",
-                experience: "2+ years",
-                description:
-                    "Monitoring, log aggregation, alerting, and observability for production systems."
-            },
-            {
-                name: "AWS Secrets Manager",
-                icon: "Cloud",
-                level: "Expert",
-                experience: "3+ years",
-                description:
-                    "Secure storage and rotation of application credentials, API keys, and sensitive configuration",
             },
             {
                 name: "AWS Lambda",
                 icon: "Cloud",
                 level: "Expert",
                 experience: "3+ years",
-                description:
-                    "Developed serverless applications using AWS Lambda for asynchronous processing, event-driven workflows, and cloud-native backend automation.",
+            },
+            {
+                name: "AWS Secrets Manager",
+                icon: "Cloud",
+                level: "Expert",
+                experience: "3+ years",
             },
             {
                 name: "Amazon SQS",
                 icon: "Cloud",
                 level: "Advanced",
                 experience: "2.5+ years",
-                description:
-                    "Message queuing service for decoupling microservices and building distributed systems",
+            },
+            {
+                name: "Amazon S3",
+                icon: "Cloud",
+                level: "Advanced",
+                experience: "2+ years",
+            },
+            {
+                name: "Amazon CloudWatch",
+                icon: "Cloud",
+                level: "Advanced",
+                experience: "2+ years",
             },
         ],
     },
+    certificationsData: [
+        {
+            name: "MongoDB Indexing Design Fundamentals",
+            issuer: "MongoDB University",
+            date: "2024",
+            skills: ["Query Optimization", "Indexing Strategies", "Execution Plan Analysis"],
+        },
+        {
+            name: "MongoDB Schema Design Optimization",
+            issuer: "MongoDB University",
+            date: "2024",
+            skills: ["Data Modeling", "Schema Optimization", "Scalability Planning"],
+        },
+        {
+            name: "MongoDB Indexing & Query Optimization",
+            issuer: "MongoDB University",
+            date: "2024",
+            skills: ["Compound Indexing", "Aggregation Optimization", "Database Monitoring"],
+        },
+        {
+            name: "MongoDB Schema Pattern Design",
+            issuer: "MongoDB University",
+            date: "2024",
+            skills: ["Bucket Pattern", "Attribute Pattern", "Polymorphic Pattern", "Computed Pattern"],
+        },
+    ],
     professionalStrengths: [
         {
-            title: "Problem Solving",
+            title: "Scalable Architecture Design",
             description:
-                "Breaking down complex challenges into manageable and scalable solutions",
+                "Design and implement distributed systems, microservices, and event-driven architectures for enterprise applications",
         },
         {
-            title: "Team Collaboration",
+            title: "Database Performance Optimization",
             description:
-                "Working effectively in cross-functional teams to deliver high-quality products",
+                "Expert in MongoDB schema design, indexing strategies, and PostgreSQL query optimization for high-performance systems",
         },
         {
-            title: "Continuous Learning",
+            title: "Full-Stack Development",
             description:
-                "Staying updated with emerging technologies, frameworks, and industry best practices",
+                "End-to-end development using React.js, Next.js, Node.js, and cloud services for scalable SaaS platforms",
         },
         {
-            title: "Code Quality",
+            title: "Security & Compliance",
             description:
-                "Advocate clean architecture, SOLID principles, design patterns, testability, maintainability, code reviews, and engineering best practices to deliver scalable production-ready software.",
+                "Implement JWT authentication, RBAC, HMAC validation, and compliance-focused security workflows for sensitive applications",
         },
         {
-            title: "Adaptability",
+            title: "System Reliability & DevOps",
             description:
-                "Quickly adjusting to new technologies, tools, and project requirements",
+                "Build CI/CD pipelines, containerization with Docker, and serverless solutions using AWS Lambda and SQS",
         },
         {
-            title: "Time Management",
+            title: "Code Quality & Best Practices",
             description:
-                "Effectively prioritizing tasks and meeting deadlines in fast-paced environments",
-        },
-        {
-            title: "Analytical Thinking",
-            description:
-                "Evaluating technical requirements and making data-driven decisions",
-        },
-        {
-            title: "Leadership",
-            description:
-                "Guiding peers, mentoring juniors, and contributing to knowledge-sharing initiatives",
-        },
-        {
-            title: "Attention to Detail",
-            description:
-                "Ensuring accuracy, consistency, and reliability in code and documentation",
-        },
-        {
-            title: "Client-Focused Approach",
-            description:
-                "Understanding business needs and delivering solutions aligned with client goals",
+                "Advocate clean architecture, SOLID principles, design patterns, testing, and maintainability in production code",
         },
     ],
     experienceData: [
         {
             id: 1,
-            company: "Span Technology Services pvt. ltd.",
+            company: "Span Technology Services Private Limited",
             position: "Software Engineer",
-            period: "Jul 2024 - Present",
+            period: "June 2023 - Present",
             location: "Coimbatore, India",
             type: "Full-time",
             description:
-                "Software Engineer building scalable SaaS platforms, enterprise tax-compliance systems, and cloud-native applications. Designed and developed distributed backend services, event-driven microservices, document-processing workflows, dual-database architectures, and high-performance APIs using Next.js, Node.js, MongoDB, PostgreSQL, Redis, Kafka, and AWS.",
+                "Developed scalable SaaS applications, enterprise tax-compliance systems, and event-driven microservices using React.js, Next.js, Node.js, MongoDB, PostgreSQL, Redis, Apache Kafka, and AWS.",
             achievements: [
-                "Designed and implemented dual-database integrations using MongoDB and PostgreSQL to support scalable enterprise tax applications.",
-                "Built event-driven microservices using Apache Kafka and Redis, improving scalability, reliability, and fault tolerance.",
-                "Optimized PostgreSQL queries, indexing strategies, and relational data models to improve reporting and transaction-processing performance.",
-                "Optimized MongoDB schemas, indexing strategies, aggregation pipelines, and backend services to improve application performance.",
-                "Designed and developed scalable SaaS applications using React.js, Next.js, Node.js, MongoDB, PostgreSQL, Redis, Kafka, and AWS.",
-                "Implemented secure authentication and authorization systems using JWT, RBAC, HMAC validation, and API security best practices.",
-                "Developed payment workflows, subscription systems, and document-processing platforms supporting business-critical operations.",
-                "Integrated AWS Lambda, SQS, and Secrets Manager to build secure cloud-native serverless solutions.",
-                "Received multiple company awards including SuperStar, Semi Fun Award, Pat on the Back, Brilliance Award, and Productivity Pro Award.",
-                "Developed and maintained IRS tax-form platforms including Form W-9 and Tax Protection Portal, supporting secure document management and compliance workflows.",
-                "Applied MongoDB schema design patterns, indexing strategies, and aggregation pipelines to improve database efficiency and scalability.",
+                "Designed RESTful APIs, authentication systems (JWT, RBAC, HMAC), payment workflows, and document-processing services for enterprise platforms.",
+                "Built event-driven microservices using Apache Kafka and Redis to improve scalability, reliability, and fault tolerance.",
+                "Optimized MongoDB and PostgreSQL database performance through schema design, indexing strategies, and aggregation pipeline optimization.",
+                "Implemented dual-database architecture (MongoDB + PostgreSQL) for Tax Protection Portal and compliance platforms.",
+                "Integrated AWS Lambda, Amazon SQS, and AWS Secrets Manager for secure cloud-native serverless processing.",
+                "Optimized backend services and CI/CD pipelines using Docker and Jenkins for automated deployment.",
+                "Developed IRS tax-form platforms (Form W-9, Tax Notices, BOIR, Tax Protection Portal) handling sensitive compliance workflows.",
+                "Received 6 awards: Brilliance Award, Productivity Pro Award, SPAN Superstar Award, Semi-Fun Award, Pat on the Back Award, Contest Winner.",
+                "Collaborated on system design, code reviews, and Agile/Scrum development practices.",
             ],
             technologies: [
                 "Node.js",
                 "React.js",
                 "Next.js",
                 "Remix.js",
-                "Jest",
-                "Kafka",
-                "Redis",
+                "TypeScript",
+                "MongoDB",
                 "PostgreSQL",
+                "Redis",
+                "Apache Kafka",
                 "AWS",
+                "Docker",
+                "Jest",
             ],
             color: "from-blue-500 to-indigo-600",
             accentColor: "blue-500",
@@ -453,7 +390,7 @@ export const portfolioData = {
             title: "Tax Notices Management System",
             image: "/projects/tax-notices.png",
             description:
-                "Currently developing a large-scale tax notice management platform that automates document ingestion, extraction, validation, and processing workflows. Built full-stack submission and tracking workflows to streamline tax correspondence and regulatory compliance. Implemented event-driven processing using Apache Kafka and Redis to improve scalability and system reliability. Leveraged AWS Lambda and Amazon SQS for serverless document processing, asynchronous task execution, and high-volume workload handling.",
+                "Implemented HMAC authentication and secure document processing workflows. Built event-driven processing pipelines using Apache Kafka and Redis. Leveraged AWS Lambda and Amazon SQS for serverless document processing and high-volume workload handling.",
             technologies: [
                 "Next.js",
                 "Node.js",
@@ -468,10 +405,10 @@ export const portfolioData = {
         },
         {
             id: 2,
-            title: "Form W-9 Management Platform",
+            title: "Form W-9 Compliance Platform",
             image: "/projects/form-w9.png",
             description:
-                "Developed and maintained a secure tax-document management platform for collecting, validating, storing, and processing IRS Form W-9 information. Designed scalable backend APIs and PostgreSQL data models to support enterprise tax compliance workflows. Implemented validation pipelines, document management capabilities, and reporting features while optimizing relational database performance through indexing and query tuning.",
+                "Designed scalable RESTful APIs and PostgreSQL data models for tax compliance workflows. Integrated Cybersource payment gateway with secure authentication and payment processing. Built interactive dashboards for payment reporting, document management, and audit tracking.",
             technologies: [
                 "Node.js",
                 "Express.js",
@@ -488,7 +425,7 @@ export const portfolioData = {
             title: "BOIR (Beneficial Ownership Information Report) Platform",
             image: "/projects/boir-reporting.png",
             description:
-                "Developed secure APIs and backend services for Beneficial Ownership Information Reporting (BOIR) workflows. Implemented document upload, validation, authentication, regulatory filing, reporting, and audit-tracking capabilities. Enhanced platform reliability through scalable backend architecture, Redis caching, Kafka-based asynchronous processing, and secure compliance-focused workflows.",
+                "Implemented authentication, payment processing, document management, and audit-tracking features. Designed scalable event-driven backend services using AWS Lambda, Apache Kafka, and Redis for reliable processing.",
             technologies: [
                 "Node.js",
                 "Express.js",
@@ -506,7 +443,7 @@ export const portfolioData = {
             title: "Tax Protection Portal",
             image: "/projects/tax-protection.png",
             description:
-                "Built and enhanced an enterprise tax protection platform using a dual-database architecture with MongoDB and PostgreSQL. Designed scalable APIs and data access layers leveraging MongoDB for flexible document storage and PostgreSQL for transactional business data. Implemented database optimization strategies, indexing improvements, and service integrations that improved system performance, scalability, and data consistency.",
+                "Implemented dual-database architecture using MongoDB and PostgreSQL with Sequelize ORM for improved data management and scalability. Built user-friendly dashboards and backend APIs for payment protection records, reporting, and operational visibility.",
             technologies: [
                 "Next.js",
                 "Node.js",
@@ -524,7 +461,7 @@ export const portfolioData = {
             title: "Express 1099 Bulk Upload System",
             image: "/projects/express-1099.svg",
             description:
-                "Developed a high-volume bulk data processing platform supporting Excel and CSV-based vendor payout uploads for 1099 tax reporting workflows. Implemented validation pipelines, automated processing jobs, error correction workflows, and asynchronous processing mechanisms using Redis and Apache Kafka. Optimized batch processing operations to handle large datasets efficiently while improving data accuracy and operational reliability.",
+                "Processed 10,000+ vendor and payout records for tax reporting. Built APIs and validation workflows for vendor onboarding, gig worker data, and payout processing. Implemented scalable asynchronous processing using Redis and Apache Kafka.",
             technologies: [
                 "Node.js",
                 "Express.js",
@@ -537,15 +474,14 @@ export const portfolioData = {
 
         {
             id: 6,
-            title: "OpenHooks",
+            title: "OpenHooks — Open Source React Hooks Library",
             image: "/projects/openhooks.jpg",
             description:
-                "Built and maintained an open-source React Hooks ecosystem consisting of an NPM package, CLI tool, and documentation platform that improves code reusability and developer productivity.",
+                "Built production-ready TypeScript hooks with comprehensive documentation. Achieved 250+ npm downloads demonstrating real-world usage and community adoption.",
             technologies: [
+                "TypeScript",
                 "React",
-                "JavaScript",
                 "Node.js",
-                "NPM",
                 "CLI",
                 "Fumadocs"
             ],
@@ -562,20 +498,29 @@ export const portfolioData = {
             value: "6+",
         },
         {
-            label: "Education",
-            value: "B.E.",
-        },
-        {
             label: "Awards Received",
             value: "6+",
         },
+        {
+            label: "Certifications",
+            value: "4+",
+        },
+    ],
+    educationData: [
+        {
+            degree: "B.E. Electronics and Communication Engineering",
+            institution: "Dr. NGP Institute of Technology",
+            location: "Coimbatore, India",
+            period: "Sep 2019 - Oct 2023",
+            cgpa: "8.1/10",
+        },
     ],
     metaInfo: {
-        title: "Vigneshwar R | Software Engineer | Node.js, Next.js, AWS, Kafka",
+        title: "Vigneshwar R | Full Stack Engineer | Node.js, React, Next.js, MongoDB, AWS",
         description:
-            "Software Engineer with 3+ years of experience building scalable SaaS platforms, event-driven microservices, distributed systems, cloud-native applications, and enterprise tax solutions using Node.js, React.js, Next.js, MongoDB, PostgreSQL, Redis, Kafka, and AWS.",
+            "Full Stack Software Engineer with 3+ years building scalable SaaS platforms, event-driven microservices, and distributed systems. Expertise in Node.js, React.js, Next.js, TypeScript, MongoDB, PostgreSQL, Redis, Apache Kafka, and AWS.",
         keywords:
-            "software engineer, backend engineer, full stack developer, nodejs developer, react developer, nextjs developer, typescript developer, mongodb developer, postgresql, redis, apache kafka, microservices architecture, distributed systems, cloud native applications, aws lambda, serverless architecture, event driven architecture, rest api development, database optimization, scalable systems",
+            "full stack developer, software engineer, backend engineer, Node.js developer, React developer, Next.js developer, TypeScript, MongoDB, PostgreSQL, Redis, Apache Kafka, microservices, distributed systems, AWS, serverless, event-driven architecture, RESTful API, database optimization, cloud-native",
         author: "Vigneshwar R",
         siteUrl: "https://vigneshwarr.vercel.app",
         image: "/og-image.jpg",
@@ -614,9 +559,9 @@ export const portfolioData = {
     ],
     heroContent: {
         greeting: "Hi, I'm",
-        name: "Vigneshwar",
+        name: "Vigneshwar R",
         description:
-            "Software Engineer specializing in scalable backend systems, event-driven microservices, distributed architectures, and cloud-native SaaS platforms using Node.js, React.js, Next.js, MongoDB, PostgreSQL, Redis, Kafka, and AWS.",
+            "Full Stack Engineer building scalable SaaS platforms, event-driven microservices, and distributed systems using Node.js, React.js, Next.js, MongoDB, PostgreSQL, Redis, Kafka, and AWS.",
         cta: {
             primary: "Get in Touch",
             secondary: "Download CV",

@@ -1,7 +1,7 @@
 import { motion } from 'framer-motion'
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card'
 import { Badge } from '@/components/ui/badge'
-import { MapPin, Calendar, Building2, ChevronDown, ChevronUp } from 'lucide-react'
+import { MapPin, Calendar, Building2 } from 'lucide-react'
 import { portfolioData } from '@/data/portfolio'
 import { useState } from 'react'
 
@@ -31,9 +31,9 @@ export function Experience() {
           {experienceData.map((experience, index) => (
             <motion.div
               key={experience.id}
-              initial={{ opacity: 0, y: 20 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              transition={{ duration: 0.5, delay: index * 0.1 }}
+              initial={{ opacity: 0 }}
+              whileInView={{ opacity: 1 }}
+              transition={{ duration: 0.4 }}
               viewport={{ once: true }}
             >
               <Card 
@@ -53,15 +53,9 @@ export function Experience() {
                         <span className="font-medium">{experience.company}</span>
                       </div>
                     </div>
-                    <div className="flex items-center gap-2">
-                      <Badge variant="outline">
-                        {experience.type}
-                      </Badge>
-                      {expandedCard === experience.id ? 
-                        <ChevronUp className="h-4 w-4" /> : 
-                        <ChevronDown className="h-4 w-4" />
-                      }
-                    </div>
+                    <Badge variant="outline">
+                      {experience.type}
+                    </Badge>
                   </div>
                   
                   <div className="flex flex-wrap gap-4 text-sm text-muted-foreground">

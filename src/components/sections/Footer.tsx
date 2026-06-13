@@ -1,6 +1,6 @@
 import { motion } from 'framer-motion'
 import { Button } from '@/components/ui/button'
-import { Github, Linkedin, Mail, ArrowUp } from 'lucide-react'
+import { Github, Linkedin, Mail, Instagram, ArrowUp } from 'lucide-react'
 import { portfolioData } from '@/data/portfolio'
 
 export function Footer() {
@@ -40,9 +40,10 @@ export function Footer() {
               const iconMap = {
                 Github: Github,
                 Linkedin: Linkedin,
+                Instagram: Instagram,
                 Mail: Mail,
               }
-              
+
               const IconComponent = iconMap[link.icon as keyof typeof iconMap]
 
               return (

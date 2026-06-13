@@ -67,7 +67,11 @@ export function Navigation() {
               onClick={() => handleNavClick('#home')}
               className="text-xl font-bold p-0 h-auto hover:bg-transparent"
             >
-              <span className="text-gradient">{personalInfo.name.split(' ')[0]}</span>
+              {activeSection === 'home' ? (
+                <span className="text-gradient font-bold">VR</span>
+              ) : (
+                <span className="text-gradient">{personalInfo.name.split(' ')[0]}</span>
+              )}
             </Button>
           </motion.div>
 
@@ -148,7 +152,7 @@ export function Navigation() {
               animate={{ opacity: 1, height: 'auto' }}
               exit={{ opacity: 0, height: 0 }}
               transition={{ duration: 0.3 }}
-              className="md:hidden mt-4 py-4 border-t border-border/50"
+              className="md:hidden mt-4 py-6 px-4 bg-background border-t border-border rounded-lg"
             >
               <div className="flex flex-col space-y-2">
                 {navigationItems.map((item, index) => (
@@ -156,19 +160,18 @@ export function Navigation() {
                     key={item.name}
                     initial={{ opacity: 0, x: -20 }}
                     animate={{ opacity: 1, x: 0 }}
-                    transition={{ duration: 0.3, delay: index * 0.1 }}
+                    transition={{ duration: 0.3, delay: index * 0.05 }}
                   >
-                    <Button
-                      variant="ghost"
+                    <button
                       onClick={() => handleNavClick(item.href)}
-                      className={`w-full justify-start transition-all duration-300 ${
-                        activeSection === item.href.slice(1) 
-                          ? 'text-primary bg-primary/10' 
-                          : 'text-muted-foreground hover:text-primary'
+                      className={`w-full py-2 px-4 rounded-md text-left transition-all duration-200 font-medium ${
+                        activeSection === item.href.slice(1)
+                          ? 'text-primary bg-primary/20'
+                          : 'text-muted-foreground hover:text-primary hover:bg-primary/10'
                       }`}
                     >
                       {item.name}
-                    </Button>
+                    </button>
                   </motion.div>
                 ))}
               </div>
